@@ -3,11 +3,12 @@ import React from 'react';
 const Header = () => {
   return (
     <div style={{ 
+      
       display: "flex",  
       alignItems: "center", 
       background: "#1A1A40", 
       width: "100%", 
-      padding: "10px", 
+      padding: "5px", 
       position: "fixed", 
       top: 0, 
       right: 1,
@@ -16,9 +17,9 @@ const Header = () => {
     borderBottomRightRadius:50
     ,
     }}>
-      <h3 style={{ color: "white", marginLeft: "900px", }}>
-        freelancer_2025
-      </h3>
+      <h2 style={{ color: "white", marginLeft: "700px", }}>
+          freelancer_2025 : abdelaaziz mostefaoui
+      </h2>
     </div>
   );
 };
