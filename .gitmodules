@@ -1,3 +1,3 @@
 [submodule "front-end-todo"]
-	path = front-end-todo
-	url = https://github.com/azizmostefaoui/todo-list.git
+    path = front-end-todo
+    url = https://github.com/azizmostefaoui/todo-list.git
