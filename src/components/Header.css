@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    align-items: center;
+    background: #1A1A40;
+    width: 100%;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    right: 1px; /* أو يمكن إزالته إذا لم يكن له تأثير */
+    z-index: 1000;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  
+  .header h2 {
+    position: relative;
+    right: 10px; /* تعديل الموضع لليسار */
+    color: white;
+    margin-left: 700px; /* يمكنك تعديل هذا حسب الحاجة */
+  }
+
+  
+  
+  
+  /* استعلامات الوسائط للأجهزة المحمولة */
+  @media screen and (max-width: 600px) {
+    .header {
+      padding: 10px; /* زيادة الحشوة للأجهزة المحمولة */
+    }
+  
+    .header h2 {
+      right: 20px; /* تقليل المسافة على اليمين */
+      margin-left: 0; /* إزالة الهامش الأيسر للأجهزة المحمولة */
+      text-align: center; /* محاذاة النص في المنتصف */
+      font-size: 15px;
+      position: relative;
+      left: 30px;
+    }
+
+  }
+  
