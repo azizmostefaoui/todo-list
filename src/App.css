@@ -41,7 +41,7 @@ body {
   margin-bottom: 1rem;
   width: 500px;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:1000) {
   .TodoForm {
   
     width: 300px;
@@ -61,7 +61,7 @@ body {
   width: 300px;
   color: #fff;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .todo-input {
     outline: none;
     background: none;
